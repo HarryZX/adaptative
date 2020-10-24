@@ -1,0 +1,62 @@
+@import 'colors.scss';
+/* DIMENSIONES PARA UTILIZAR EN EL DOCUMENTO */
+
+/* CONTENDOR EN TODA LA PANTALLA */
+@mixin cont-adapt {
+    margin: 0px;
+    padding: 10px;
+    background-color: #11aaaa;
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: column wrap;
+
+    @media (min-width: 400px) and (orientation: portrait) {
+        background-color: #aaa;
+    }
+}
+
+@mixin cont-menu{
+    margin: 0px;
+    padding: 5px;
+    background-color: $azul-marino;
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    @media (min-width: 400px) and (orientation: portrait){
+        background-color: $zanahoria;
+        display: flex;
+        flex: 1 1 auto;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@mixin row-cont{
+    margin: 0px;
+    padding: 5px;
+    background-color: $esmeralda;
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    @media (min-width: 400px) and (orientation: portrait){
+        background-color: $zanahoria;
+        display: flex;
+        flex: 1 1 auto;
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+}
+
+@mixin independent{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: column wrap;
+}

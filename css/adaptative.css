@@ -1,0 +1,67 @@
+/* PALETA DE COLORES */
+/* DIMENSIONES PARA UTILIZAR EN EL DOCUMENTO */
+/* CONTENDOR EN TODA LA PANTALLA */
+* {
+  list-style: none; }
+
+body {
+  margin: 0px;
+  padding: 0px; }
+
+.container {
+  margin: 0px;
+  padding: 10px;
+  background-color: #11aaaa;
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: column wrap;
+  border: 2px solid #000; }
+  @media (min-width: 400px) and (orientation: portrait) {
+    .container {
+      background-color: #aaa; } }
+
+.menu {
+  margin: 0px;
+  padding: 5px;
+  background-color: #120A8F;
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #000; }
+  @media (min-width: 400px) and (orientation: portrait) {
+    .menu {
+      background-color: #ED9121;
+      display: flex;
+      flex: 1 1 auto;
+      flex-flow: column wrap;
+      justify-content: space-around;
+      align-items: center; } }
+
+.row-container {
+  margin: 0px;
+  padding: 5px;
+  background-color: #50C878;
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border: 2px solid #000; }
+  @media (min-width: 400px) and (orientation: portrait) {
+    .row-container {
+      background-color: #ED9121;
+      display: flex;
+      flex: 1 1 auto;
+      flex-flow: column wrap;
+      justify-content: space-between; } }
+
+.indp-container {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: column wrap;
+  border: 2px solid #000; }
+
+/*# sourceMappingURL=adaptative.css.map */
