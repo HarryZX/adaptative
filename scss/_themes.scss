@@ -1,0 +1,23 @@
+@import 'colors.scss';
+
+/* TEMAS */
+
+@mixin kyanite{
+	background-color: $cian;
+	color: $negro;
+}
+
+@mixin carminic{
+	background-color: $carmin;
+	color: $blanco;
+}
+
+@mixin cloudy{
+	background-color: $gris-antracita;
+	color: $blanco;
+}
+
+@mixin orangeade{
+	background-color: $naranja;
+	color: $negro;
+}

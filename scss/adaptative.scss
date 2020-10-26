@@ -1,7 +1,14 @@
+/* BIBLIOTECAS NECESARIAS */
+@import 'colors.scss';
 @import 'dimensions.scss';
+@import 'themes.scss';
+@import 'textNFonts.scss';
 
+/* CONFIGURACIÓN GENERAL */
 * {
 	list-style: none;
+	text-decoration: none;
+	font-size: 18px;
 }
 
 body {
@@ -9,22 +16,143 @@ body {
     padding: 0px;
 }
 
+/* CONTENEDORES DE ELEMENTOS */
 .container {
     @include cont-adapt;
-    border: 2px solid #000;
 }
 
 .menu {
 	@include cont-menu;
-	border: 2px solid #000;
 }
 
 .row-container{
 	@include row-cont;
-	border: 2px solid #000;
 }
 
 .indp-container{
 	@include independent;
-	border: 2px solid #000;
+}
+
+.side-container{
+	@include side;
+}
+
+/* CONTENEDORES CON TEMAS */
+
+/* TEMAS PARA EL CONTENEDOR PRINCIPAL*/
+.container.kyanite-thm{
+	@include cont-adapt;
+	@include kyanite;
+}
+
+.container.carminic-thm{
+	@include cont-adapt;
+	@include carminic;
+}
+
+.container.cloudy-thm{
+	@include cont-adapt;
+	@include cloudy;
+}
+
+.container.orangeade-thm{
+	@include cont-adapt;
+	@include orangeade;
+}
+
+/* TEMAS PARA EL MENÚ */
+.menu.kyanite-thm{
+	@include cont-menu;
+	@include kyanite;
+}
+
+.menu.carminic-thm{
+	@include cont-menu;
+	@include carminic;
+}
+
+.menu.cloudy-thm{
+	@include cont-menu;
+	@include cloudy;
+}
+
+.menu.orangeade-thm{
+	@include cont-menu;
+	@include orangeade;
+}
+
+/* TEMAS PARA COLUMNAS OBJETOS EN FILA */
+.row-container.kyanite-thm{
+	@include row-cont;
+	@include kyanite;
+}
+
+.row-container.carminic-thm{
+	@include row-cont;
+	@include carminic;
+}
+
+.row-container.cloudy-thm{
+	@include row-cont;
+	@include cloudy;
+}
+
+.row-container.orangeade-thm{
+	@include row-cont;
+	@include orangeade;
+}
+
+/* TEMAS PARA CONTENEDORES INDEPENDIENTES */
+.indp-container.kyanite-thm{
+	@include independent;
+	@include kyanite;
+}
+
+.indp-container.carminic-thm{
+	@include independent;
+	@include carminic;
+}
+
+.indp-container.cloudy-thm{
+	@include independent;
+	@include cloudy;
+}
+
+.indp-container.orangeade-thm{
+	@include independent;
+	@include orangeade;
+}
+
+/* TEMAS PARA CONTENEDORES LATERALES */
+.side-container.kyanite-thm{
+	@include side;
+	@include kyanite;
+}
+
+.side-container.carminic-thm{
+	@include side;
+	@include carminic;
+}
+
+.side-container.cloudy-thm{
+	@include side;
+	@include cloudy;
+}
+
+.side-container.orangeade-thm{
+	@include side;
+	@include orangeade;
+}
+
+/* TIPOGRAFÍA Y TEXTO */
+.title{
+	@include titles;
+}
+
+.subtitle{
+	@include subtitles;
+}
+
+.paragraph{
+	@include paragraphs;
 }
