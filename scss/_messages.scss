@@ -1,0 +1,52 @@
+@import 'colors.scss';
+@import 'textNFonts.scss';
+
+/* MENSAJE DE SATISFACCIÓN */
+@mixin successMessage{
+	margin: 5px 0px 5px 0px;
+	padding: 10px;
+	color: $helecho;
+	border: 2px solid $helecho;
+	border-radius: 4px;
+	background-color: $verde-amarillo;
+}
+
+/* MENSAJE DE ALERTA */
+@mixin warningMessage{
+	margin: 5px 0px 5px 0px;
+	padding: 10px;
+	color: $gamboge;
+	border: 2px solid $gamboge;
+	border-radius: 4px;
+	background-color: $dandelion;
+}
+
+/* MENSAJE DE PELIGRO */
+@mixin dangerMessage{
+	margin: 5px 0px 5px 0px;
+	padding: 10px;
+	color: $granate;
+	border: 2px solid $granate;
+	border-radius: 4px;
+	background-color: $carnacion;
+}
+
+/* MENSAJE DE INFORMACIÓN */
+@mixin infoMessage{
+	margin: 5px 0px 5px 0px;
+	padding: 10px;
+	color: $azul-real;
+	border: 2px solid $azul-real;
+	border-radius: 4px;
+	background-color: $azul-heraltico;
+}
+
+/* MENSAJE OSCURO */
+@mixin darkMessage{
+	margin: 5px 0px 5px 0px;
+	padding: 10px;
+	color: $gris-antracita;
+	border: 2px solid $gris-antracita;
+	border-radius: 4px;
+	background-color: $gris;
+}

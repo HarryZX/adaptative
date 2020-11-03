@@ -10,11 +10,38 @@
 /* PALETA DE COLORES */
 /* TEMAS */
 /* PALETA DE COLORES */
+/* TEXTO PARA TÍTULOS */
+/* TEXTO PARA SUBTÍTULOS */
+/* TEXTO PARA LOS PARRAFOS */
+/* TEXTO PARA BOTONES */
+/* PALETA DE COLORES */
+/* PALETA DE COLORES */
+/* TEXTO PARA TÍTULOS */
+/* TEXTO PARA SUBTÍTULOS */
+/* TEXTO PARA LOS PARRAFOS */
+/* TEXTO PARA BOTONES */
+/* BOTON POR DEFECTO */
+/* BOTON PRIMARIO */
+/* DELINEADOS */
+/* PALETA DE COLORES */
+/* PALETA DE COLORES */
+/* TEXTO PARA TÍTULOS */
+/* TEXTO PARA SUBTÍTULOS */
+/* TEXTO PARA LOS PARRAFOS */
+/* TEXTO PARA BOTONES */
+/* MENSAJE DE SATISFACCIÓN */
+/* MENSAJE DE ALERTA */
+/* MENSAJE DE PELIGRO */
+/* MENSAJE DE INFORMACIÓN */
+/* MENSAJE OSCURO */
 /* CONFIGURACIÓN GENERAL */
 * {
   list-style: none;
   text-decoration: none;
-  font-size: 18px; }
+  font-size: 18px;
+  font-family: bahnschrift, verdana;
+  font-style: normal;
+  font-weight: lighter; }
 
 body {
   margin: 0px;
@@ -395,5 +422,119 @@ body {
   @media (min-width: 350px) and (orientation: portrait) {
     .paragraph {
       font-size: 1em; } }
+
+/* BOTONES */
+/* POR DEFECTO */
+.default {
+  width: auto;
+  margin: 5px 0px 5px 0px;
+  padding: 7px;
+  background-color: #FFFFFF;
+  border: 0.5px solid #000000;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.default:hover {
+  background-color: #808080;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  transition: 0.2s; }
+
+/* PRIMARIO */
+.primary {
+  width: auto;
+  margin: 5px 0px 5px 0px;
+  padding: 7px;
+  background-color: #FFDB58;
+  color: #000000;
+  border: 0.5px solid #FFDB58;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.primary:hover {
+  color: #808080;
+  transition: 0.2s; }
+
+/* DELINEADOS */
+.outlined-kyanite {
+  width: auto;
+  margin: 5px 0px 5px 0px;
+  padding: 7px;
+  background-color: #FFFFFF;
+  color: #00FFFF;
+  border: 0.5px solid #00FFFF;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.outlined-carminic {
+  width: auto;
+  margin: 5px 0px 5px 0px;
+  padding: 7px;
+  background-color: #FFFFFF;
+  color: #960018;
+  border: 0.5px solid #960018;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.outlined-cloudy {
+  width: auto;
+  margin: 5px 0px 5px 0px;
+  padding: 7px;
+  background-color: #FFFFFF;
+  color: #303030;
+  border: 0.5px solid #303030;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.outlined-orangeade {
+  width: auto;
+  margin: 5px 0px 5px 0px;
+  padding: 7px;
+  background-color: #FFFFFF;
+  color: #FFA000;
+  border: 0.5px solid #FFA000;
+  border-radius: 4px;
+  cursor: pointer; }
+
+/* ALERTAS DE ESTADOS */
+.success {
+  margin: 5px 0px 5px 0px;
+  padding: 10px;
+  color: #4F7942;
+  border: 2px solid #4F7942;
+  border-radius: 4px;
+  background-color: #7FFF00; }
+
+.warning {
+  margin: 5px 0px 5px 0px;
+  padding: 10px;
+  color: #EF9B0F;
+  border: 2px solid #EF9B0F;
+  border-radius: 4px;
+  background-color: #FED85D; }
+
+.danger {
+  margin: 5px 0px 5px 0px;
+  padding: 10px;
+  color: #800000;
+  border: 2px solid #800000;
+  border-radius: 4px;
+  background-color: #F95A61; }
+
+.info {
+  margin: 5px 0px 5px 0px;
+  padding: 10px;
+  color: #002366;
+  border: 2px solid #002366;
+  border-radius: 4px;
+  background-color: #007FFF; }
+
+.dark {
+  margin: 5px 0px 5px 0px;
+  padding: 10px;
+  color: #303030;
+  border: 2px solid #303030;
+  border-radius: 4px;
+  background-color: #808080; }
 
 /*# sourceMappingURL=adaptative.css.map */

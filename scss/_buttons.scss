@@ -1,0 +1,70 @@
+@import 'colors.scss';
+@import 'textNFonts.scss';
+
+/* BOTON POR DEFECTO */
+@mixin defaultButton{
+	width: auto;
+	margin: 5px 0px 5px 0px;
+	padding: 7px;
+	background-color: $blanco;
+	border: 0.5px solid $negro;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* BOTON PRIMARIO */
+@mixin primaryButton{
+	width: auto;
+	margin: 5px 0px 5px 0px;
+	padding: 7px;
+	background-color: $mostaza;
+	color: $negro;
+	border: 0.5px solid $mostaza;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* DELINEADOS */
+@mixin kyaniteButton{
+	width: auto;
+	margin: 5px 0px 5px 0px;
+	padding: 7px;
+	background-color: $blanco;
+	color: $cian;
+	border: 0.5px solid $cian;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+@mixin carminicButton{
+	width: auto;
+	margin: 5px 0px 5px 0px;
+	padding: 7px;
+	background-color: $blanco;
+	color: $carmin;
+	border: 0.5px solid $carmin;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+@mixin cloudyButton{
+	width: auto;
+	margin: 5px 0px 5px 0px;
+	padding: 7px;
+	background-color: $blanco;
+	color: $gris-antracita;
+	border: 0.5px solid $gris-antracita;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+@mixin orangeadeButton{
+	width: auto;
+	margin: 5px 0px 5px 0px;
+	padding: 7px;
+	background-color: $blanco;
+	color: $naranja;
+	border: 0.5px solid $naranja;
+	border-radius: 4px;
+	cursor: pointer;
+}

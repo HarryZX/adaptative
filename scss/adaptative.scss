@@ -3,12 +3,17 @@
 @import 'dimensions.scss';
 @import 'themes.scss';
 @import 'textNFonts.scss';
+@import 'buttons.scss';
+@import 'messages.scss';
 
 /* CONFIGURACIÓN GENERAL */
 * {
 	list-style: none;
 	text-decoration: none;
 	font-size: 18px;
+	font-family: bahnschrift, verdana;
+	font-style: normal;
+	font-weight: lighter;
 }
 
 body {
@@ -155,4 +160,64 @@ body {
 
 .paragraph{
 	@include paragraphs;
+}
+
+/* BOTONES */
+
+/* POR DEFECTO */
+.default{
+	@include defaultButton;
+}
+.default:hover{
+	background-color: $gris;
+	color: $blanco;
+	border: 1px solid $blanco;
+	transition: 0.2s;
+}
+
+/* PRIMARIO */
+.primary{
+	@include primaryButton;
+}
+.primary:hover{
+	color: $gris;
+	transition: 0.2s;
+}
+
+/* DELINEADOS */
+.outlined-kyanite{
+	@include kyaniteButton;
+}
+
+.outlined-carminic{
+	@include carminicButton;
+}
+
+.outlined-cloudy{
+	@include cloudyButton;
+}
+
+.outlined-orangeade{
+	@include orangeadeButton;
+}
+
+/* ALERTAS DE ESTADOS */
+.success{
+	@include successMessage;
+}
+
+.warning{
+	@include warningMessage;
+}
+
+.danger{
+	@include dangerMessage;
+}
+
+.info{
+	@include infoMessage;
+}
+
+.dark{
+	@include darkMessage;
 }

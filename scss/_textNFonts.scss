@@ -1,5 +1,6 @@
 @import 'colors.scss';
 
+/* TEXTO PARA TÍTULOS */
 @mixin titles{
 	padding: 0px;
 	margin: 0px;
@@ -13,6 +14,7 @@
 	}
 }
 
+/* TEXTO PARA SUBTÍTULOS */
 @mixin subtitles{
 	padding: 0px;
 	margin: 0px;
@@ -26,6 +28,7 @@
 	}
 }
 
+/* TEXTO PARA LOS PARRAFOS */
 @mixin paragraphs{
 	padding: 0px;
 	margin: 0px;
@@ -37,4 +40,14 @@
 	@media (min-width: 350px) and (orientation: portrait){
 		font-size: 1em;
 	}
+}
+
+/* TEXTO PARA BOTONES */
+@mixin buttonFont{
+	padding: 0px;
+	margin: 0px;
+	font-family: bahnschrift, verdana;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 1em;
 }
