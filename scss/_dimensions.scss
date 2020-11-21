@@ -3,7 +3,7 @@
 /* CONTENDOR EN TODA LA PANTALLA */
 @mixin cont-adapt {
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
     display: flex;
     flex: 1 1 auto;
     flex-flow: column wrap;
@@ -39,7 +39,7 @@
 /* CONTENEDOR PARA ELEMENTOS EN COLUMNA */
 @mixin row-cont{
     margin: 0px;
-    padding: 5px;
+    padding: 0px;
     display: flex;
     flex: 1 1 auto;
     flex-flow: row nowrap;

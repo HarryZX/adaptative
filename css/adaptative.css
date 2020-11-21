@@ -50,7 +50,7 @@ body {
 /* CONTENEDORES DE ELEMENTOS */
 .container {
   margin: 0px;
-  padding: 10px;
+  padding: 0px;
   display: flex;
   flex: 1 1 auto;
   flex-flow: column wrap; }
@@ -80,7 +80,7 @@ body {
 
 .row-container {
   margin: 0px;
-  padding: 5px;
+  padding: 0px;
   display: flex;
   flex: 1 1 auto;
   flex-flow: row nowrap;
@@ -111,7 +111,7 @@ body {
 /* TEMAS PARA EL CONTENEDOR PRINCIPAL*/
 .container.kyanite-thm {
   margin: 0px;
-  padding: 10px;
+  padding: 0px;
   display: flex;
   flex: 1 1 auto;
   flex-flow: column wrap;
@@ -127,7 +127,7 @@ body {
 
 .container.carminic-thm {
   margin: 0px;
-  padding: 10px;
+  padding: 0px;
   display: flex;
   flex: 1 1 auto;
   flex-flow: column wrap;
@@ -143,7 +143,7 @@ body {
 
 .container.cloudy-thm {
   margin: 0px;
-  padding: 10px;
+  padding: 0px;
   display: flex;
   flex: 1 1 auto;
   flex-flow: column wrap;
@@ -159,7 +159,7 @@ body {
 
 .container.orangeade-thm {
   margin: 0px;
-  padding: 10px;
+  padding: 0px;
   display: flex;
   flex: 1 1 auto;
   flex-flow: column wrap;
@@ -249,7 +249,7 @@ body {
 /* TEMAS PARA COLUMNAS OBJETOS EN FILA */
 .row-container.kyanite-thm {
   margin: 0px;
-  padding: 5px;
+  padding: 0px;
   display: flex;
   flex: 1 1 auto;
   flex-flow: row nowrap;
@@ -265,7 +265,7 @@ body {
 
 .row-container.carminic-thm {
   margin: 0px;
-  padding: 5px;
+  padding: 0px;
   display: flex;
   flex: 1 1 auto;
   flex-flow: row nowrap;
@@ -281,7 +281,7 @@ body {
 
 .row-container.cloudy-thm {
   margin: 0px;
-  padding: 5px;
+  padding: 0px;
   display: flex;
   flex: 1 1 auto;
   flex-flow: row nowrap;
@@ -297,7 +297,7 @@ body {
 
 .row-container.orangeade-thm {
   margin: 0px;
-  padding: 5px;
+  padding: 0px;
   display: flex;
   flex: 1 1 auto;
   flex-flow: row nowrap;
